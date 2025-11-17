@@ -1,0 +1,36 @@
+Introduction to Cloud Computing
+
+      Cloud Computing is the delivery of various computing services over the internet,
+      enabling businesses and individuals to access and utilize resources without the need for physical infrastructure. 
+      These services are provided by cloud service providers and are billed on a pay-as-you-go basis, offering flexibility, scalability, and cost efficiency.
+
+
+Key Features of Cloud Computing:
+        On-Demand Self-Service: 
+                              Users can provision resources automatically as needed, without requiring human interaction with the service provider.
+        Broad Network Access: 
+                              Resources are available over the internet and can be accessed from anywhere using devices like laptops, smartphones, or tablets.
+        Resource Pooling: 
+                              Multiple users share a pool of resources dynamically assigned and reassigned based on demand.
+        Scalability and Elasticity: 
+                              Resources can scale up or down automatically to meet workload demands.
+        Measured Service: 
+                              Usage is monitored, controlled, and billed based on actual consumption, ensuring cost-efficiency.
+                              Popular providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+
+Characteristics of Cloud Computing:
+        On-Demand Self-Service:
+                              Users can access resources as needed without human interaction from the provider.
+        Pay-As-You-Go Pricing:
+                                Customers only pay for the resources they use, reducing upfront capital expenditure.
+        Scalability:
+                      Automatic scaling of resources to meet fluctuating demands.
+        Includes vertical scaling (adding more power to an existing machine) and horizontal scaling (adding more machines).
+        Broad Network Access:
+                    Resources are accessible over the internet, enabling use from multiple devices.
+        Resource Pooling:
+                        Providers use a multi-tenant model where resources are dynamically assigned based on demand.
+        Rapid Elasticity:
+                                Resources can be quickly scaled up or down, often appearing limitless to users.
+        Measured Service:
+                            Usage is monitored, controlled, and reported for transparency.
