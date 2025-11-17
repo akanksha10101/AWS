@@ -1,0 +1,66 @@
+Overview of AWS Core Services:
+1. Compute Services:
+                  AWS compute services allow businesses to run applications, manage workloads, and handle computing tasks on-demand.
+                  
+                  Amazon EC2 (Elastic Compute Cloud):
+                              Amazon EC2 provides resizable virtual servers in the cloud, allowing businesses to deploy and scale applications easily. 
+                              Users can choose from a variety of instance types tailored to specific use cases, such as general-purpose, compute-intensive,
+                              or memory-intensive workloads.
+                  Key Features:
+                            Scalable: Resources can be scaled up or down based on demand.
+                            Flexible Pricing: Offers On-Demand, Reserved, and Spot Instances.
+                            High Availability: Supports deployment across multiple Availability Zones.
+                  Use Cases:
+                            Hosting websites and applications.
+                            Running batch jobs or high-performance computing workloads.
+                            Development and testing environments.
+                  AWS Lambda:
+                              AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. 
+                              Code is executed in response to events such as file uploads, database changes, or API requests.
+                  Key Features:
+                          Fully Managed: No need to manage infrastructure; AWS handles scaling and availability.
+                          Pay-Per-Use: You are billed only for the compute time your code uses.
+                          Event-Driven: Triggered by AWS services like S3, DynamoDB, or custom APIs.
+                  Use Cases:
+                              Running microservices and serverless applications.
+                              Processing real-time data streams.
+                              Automating tasks such as image resizing or log processing.
+2. Storage Services
+                      AWS storage services provide secure, scalable, and cost-effective solutions for storing data of all types.
+                      
+                      Amazon S3 (Simple Storage Service)
+                              Amazon S3 is an object storage service designed for scalability, durability, and low-latency data access.
+                              It’s ideal for storing files, backups, and archival data.
+                      Key Features:
+                              99.999999999% Durability: Ensures data is safe and recoverable.
+                              Tiered Storage: Includes standard, infrequent access, and archival tiers like Glacier.
+                                Integrated Security: Supports encryption and fine-grained access controls.
+                      Use Cases:
+                                Hosting static websites or media files.
+                                Backup and disaster recovery.
+                                Big data analytics and data lakes.
+
+                      Amazon EBS (Elastic Block Store)
+                                    Amazon EBS provides block storage volumes that can be attached to EC2 instances for persistent and high-performance storage.
+                      Key Features:
+                              Customizable: Offers different volume types, such as SSDs for high IOPS or HDDs for throughput-intensive workloads.
+                              Backup Capabilities: Supports snapshots for backup and restoration.
+                              High Availability: Data is replicated within the same Availability Zone for durability.
+                      Use Cases:
+                                      Storing databases and transactional data.
+                                      Providing persistent storage for EC2 instances.
+                                      Running applications that require low-latency access to data.
+3. Networking
+              AWS networking services enable secure and scalable connectivity for applications and resources.
+
+Amazon VPC (Virtual Private Cloud)
+                    Amazon VPC allows you to create isolated and secure networks within the AWS cloud. 
+                    It gives you control over your network settings, including IP addresses, subnets, routing tables, and gateways.
+Key Features:
+              Customization: Configure subnets, route tables, and internet gateways to suit your architecture.
+              Security: Includes features like Network Access Control Lists (NACLs) and Security Groups.
+              Integration: Seamlessly connects to on-premises data centers via VPN or Direct Connect.
+Use Cases:
+          Hosting secure applications in a private network.
+          Extending on-premises networks to the cloud.
+          Isolating environments for development, testing, and production.
