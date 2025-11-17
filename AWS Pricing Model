@@ -1,0 +1,61 @@
+AWS Pricing Model:
+1. Free Tier
+                The AWS Free Tier provides a low-risk opportunity to explore and experiment with AWS services at no cost. 
+                It is ideal for beginners, developers, and startups looking to test AWS services or build small-scale applications.
+                
+                What Does the Free Tier Include?
+                The Free Tier is divided into three types:
+                
+                        Always Free: Services that are free within defined limits indefinitely.
+                        12-Month Free: Services available for free for the first 12 months after signing up.
+                        Trial Offers: Limited-time trials for specific services.
+
+                Examples of Free Tier Limits:
+                Compute:
+                        750 Hours of EC2 t2.micro or t3.micro Instances per month (Linux/Windows).
+                Storage:
+                        5 GB of Amazon S3 Standard Storage per month.
+                        30 GB of Elastic Block Store (EBS) storage.
+                Databases:
+                          750 Hours of Amazon RDS Single-AZ db.t2.micro usage.
+                Other Services:
+                              1 Million Lambda Requests per month.
+                              50 GB of Outbound Data Transfer.
+                Use Cases for the Free Tier:
+                                Hosting small-scale web applications.
+                                Learning cloud computing concepts.
+                                Prototyping and testing applications.
+2. Pay-As-You-Go
+          The Pay-As-You-Go model ensures customers only pay for the resources they actually use, avoiding upfront costs and minimizing wastage.
+          
+          How It Works:
+                Per-Second/Per-Hour Billing:
+                            For compute services like EC2, customers are billed based on the number of seconds or hours instances are active.
+                Data Storage Billing:
+                              Services like S3 charge based on the amount of data stored and data transferred out of the cloud.
+                On-Demand Services:
+                              Only use and pay for services when needed, such as spinning up a virtual machine during high traffic.
+          Advantages:
+                      No Upfront Costs: Start small and scale as you grow.
+                      Transparent Billing: Easily track and manage costs with detailed usage reports.
+                      Flexibility: Adjust resource usage dynamically based on workload requirements.
+3. Cost Optimization Tools
+                      To help customers manage and optimize their spending, AWS offers powerful cost-management tools:
+                      
+                      AWS Cost Explorer
+                                  AWS Cost Explorer allows users to visualize, analyze, and manage their AWS costs and usage over time.
+                      Key Features:
+                                    Create custom reports to track monthly, daily, or hourly spending.
+                                    Identify usage patterns and trends.
+                                    Forecast future spending based on historical data.
+                      Use Case:
+                                    Spot high-cost services and make informed decisions to reduce unnecessary spending.
+                      AWS Budgets
+                                    AWS Budgets helps set and monitor spending limits to avoid unexpected costs.
+                      Key Features:
+                                  Create custom budgets for services, regions, or accounts.
+                                  Receive alerts when costs or usage exceed predefined thresholds.
+                                  Integrate with AWS Cost Explorer for deeper analysis.
+                      Use Case:
+                      Ensure spending aligns with organizational budgets.
+                      Monitor costs in real-time for better financial control.
